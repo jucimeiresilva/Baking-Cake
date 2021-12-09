@@ -1,0 +1,11 @@
+.area-jogo {
+    background-image: url("../imagens/fundo.jpg");
+    height: 800px;
+    width: 1300px;
+
+}
+
+#secao-1 {
+    display: flex;
+    justify-content: center;
+}

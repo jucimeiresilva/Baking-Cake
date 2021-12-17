@@ -1,11 +1,277 @@
+h1 {
+    font-size: 5rem;
+    color: palevioletred;
+    font-weight: lighter;
+    text-shadow: 4px 4px 5px maroon;
+    text-align: center;
+  }
+
+  p  {
+    font-size: 2rem;
+    color: orangered;
+    font-weight: lighter;
+    text-align: left;
+
+  }
+
+  h4 {
+      font-family: cursive;
+      font-weight: normal;
+      color: orchid;
+  }
+
 .area-jogo {
-    background-image: url("../imagens/fundo.jpg");
+    background-image: url("../imagens/image.png");
     height: 800px;
     width: 1300px;
+   
+}
+
+
+.enfeites-chocolate,
+.enfeites-cereja,
+.enfeites-morango,
+.enfeites-chantilly {
+    height: 60px;
+    width: 60px;
+ 
+}
+
+.massa-chocolate{
+    background-color: maroon;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.massa-redvelvet{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.massa-baunilha{
+    background-color: palegoldenrod;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.recheio-amora{
+    background-color: purple;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
 
 }
 
+.recheio-morango{
+    background-color: rgb(209, 99, 163);;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.recheio-abacaxi{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.chantilly{
+    background-color: aqua;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.creme-de-manteiga{
+    background-color: pink;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.ganache{
+    background-color: burlywood;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+
+
+.bolo.chocolate{
+    background-color: rgba(59, 30, 3, 0.973);
+    height: 100px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+}
+
+.bolo.red-velvet{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+}
+
+.bolo.baunilha{
+    background-color: palegoldenrod;
+    height: 100px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+}
+
+.recheio.amora{
+    background-color: purple;
+    height: 20px;
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.recheio.morango{
+    background-color: rgb(209, 99, 163);
+    height: 20px;
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.recheio.abacaxi{
+    background-color: yellow;
+    height: 20px;
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.cobertura.chantilly{
+    background-color: aqua;
+    height: 10px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+    margin-bottom: 50px;
+
+}
+
+.cobertura.creme-de-manteiga{
+    background-color: pink;
+    height: 10px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+    margin-bottom: 50px;
+}
+
+.cobertura.ganache{
+    background-color: burlywood;
+    height: 10px;
+    width: 150px;
+    border-radius: 20% 20% 0 0;
+    margin-bottom: 50px;
+}
+
+
+.decoracao.chocolate{
+    background-image: url("../imagens/bolos20.png");
+    background-size: 50px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.decoracao.cereja{
+    background-image: url("../imagens/cereja.png");
+    background-size: 50px;
+    background-color: white;
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+.decoracao.morango{
+    background-image: url("../imagens/morango.png");
+    background-size: 50px;
+    background-color: white;
+    height: 60px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.decoracao.chantilly{
+    background-image: url("../imagens/chantilly.jpg");
+    background-size: 50px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+
 #secao-1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+
+}
+
+
+.massas,
+.recheios,
+.coberturas,
+.decoracao {
+margin: 20px ;
+
+
+}
+
+.enfeites-chocolate img, 
+.enfeites-cereja img,
+.enfeites-morango img,
+.enfeites-chantilly img {
+
+
+    height: 30px;
+
 }

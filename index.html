@@ -4,23 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baking Cake</title>
+    <title>Making Cake</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div>
-        <h1>Baking Cake</h1>
-        <p> Monte seu bolo antes que o tempo acabe</p>
-    </div>
+        <h1>Making Cake <img src="./imagens/Jucimeire1.png" alt="some text" width=100 height=150></h1>
+        
+        <p> Finalize seu bolo, o tempo está acabando!</p>
+
+     </div>
+    <br>
+    <input type="text" name="cronometro" id="cron" value="00:00:00"/>
+    <br />
+    <button type="button" onclick="setInterval('tempo()',983);return false;">Cronômetro
+    </button>
+    <br />
+    <button onclick="clearTimeout(teste)">Zerar
+    </button>
+    <br />
+
     <div>
-      <button>Começar</button>
+      <button>Start</button>
+      <button>Stop</button>
+      <button>Restart</button>
     </div>
     <section id="secao-1">
+      
 
-        <div class="area-jogo"> 
+        <div class="massas">
+            <h4>Massas</h4>
+            <button class="massa-chocolate" >
+                Chocolate
+            </button>
+            <br>
+            <button class="massa-redvelvet"> 
+                Red Velvet
+            </button>
+            <br>
+            <button class="massa-baunilha">
+                Baunilha
+            </button>
+            <br>
+        </div>
+
+        <div class="recheios">
+            <h4>Recheios</h4>
+            <button class="recheio-amora">
+                Amora
+            </button>
+            <br>
+            <button class="recheio-morango">
+                Morango
+            </button>
+            <br>
+            <button class="recheio-abacaxi">
+                Abacaxi
+            </button>
+            <br>
+        </div>
+
+        <div class="coberturas">
+            <h4>Coberturas</h4>
+            <button class="chantilly">
+                Chantilly
+            </button>
+            <br>
+            <button class="creme-de-manteiga">
+                Creme de Manteiga
+            </button>
+            <br>
+            <button class="ganache">
+                Ganache
+            </button>
+            <br>
+        </div>
+         <div>
+             
+        </div>
     </div>
-    </section> 
-        
+
+    <div class="decoracao">
+        <h4>Decoração</h4>
     
+         <button class='enfeites-chocolate'>
+        <img src="./imagens/bolos20.png"/>
+        </button>
+        <br>
+        <button class="enfeites-cereja">
+            <img src="./imagens/cereja.png"/>
+        </button>
+         <br>
+        <button class="enfeites-morango">
+            <img src="./imagens/morango.png"/>
+        </button>
+        <br>
+        <button class="enfeites-chantilly">
+            <img src="./imagens/chantilly.jpg"/>
+        </button>  
+
+
+    </div>
+
+    <div class="bolo"> 
+        <div class="recheio">
+            <div class="cobertura">
+                <div class="decoracao">
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </section>     
 </body>
+<script src="./scripts/scripts.js"></script>
 </html>
+
+

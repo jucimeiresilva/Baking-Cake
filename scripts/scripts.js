@@ -64,12 +64,7 @@ ganache.addEventListener("click", function(){
 
 
 //Botões Decoração
-let decoracaoChocolate= document.querySelector('.enfeites-chocolate');
-  decoracaoChocolate.addEventListener("click", function(){
-        console.log("decoracaoChocolate");
-    document.querySelector('.decoracao').className = "decoracao chocolate";
 
-    })
 
     let decoracaoCereja= document.querySelector('.enfeites-cereja');
   decoracaoCereja.addEventListener("click", function(){
@@ -85,12 +80,7 @@ let decoracaoChocolate= document.querySelector('.enfeites-chocolate');
 
     })
 
-    let decoracaoChantilly= document.querySelector('.enfeites-chantilly');
-  decoracaoChantilly.addEventListener("click", function(){
-        console.log("decoracaoChantilly");
-    document.querySelector('.decoracao').className = "decoracao chantilly";
-
-    })
+   
 
     //cronometro
 
@@ -129,3 +119,15 @@ let decoracaoChocolate= document.querySelector('.enfeites-chocolate');
       startCountDown(--duration, element);
   };
 
+const canvas = document.getElementById('canvas');
+const context = canvas.getContext('2d');
+
+//exemplo 1
+context.fillStyle = 'red';
+context.fillRect(135, 135, 350, 350);
+
+//exemplo 2
+//<svg width="400" height="180">
+//<rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+//style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+//</svg>

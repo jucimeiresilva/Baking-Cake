@@ -109,7 +109,7 @@ ganache.addEventListener("click", function(){
   
   window.onload = function () {
       let time_minutes = 0; // Value in minutes
-      let time_seconds = 40; // Value in seconds
+      let time_seconds = 30; // Value in seconds
   
       let duration = time_minutes * 60 + time_seconds;
   
@@ -117,17 +117,13 @@ ganache.addEventListener("click", function(){
       element.textContent = `${paddedFormat(time_minutes)}:${paddedFormat(time_seconds)}`;
   
       startCountDown(--duration, element);
+
+      let myGreeting = setTimeout(function() {
+        alert('O tempo está acabando!');
+      }, 20000)
+      
   };
 
-const canvas = document.getElementById('canvas');
-const context = canvas.getContext('2d');
+  
 
-//exemplo 1
-context.fillStyle = 'red';
-context.fillRect(135, 135, 350, 350);
 
-//exemplo 2
-//<svg width="400" height="180">
-//<rect x="50" y="20" rx="20" ry="20" width="150" height="150"
-//style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
-//</svg>

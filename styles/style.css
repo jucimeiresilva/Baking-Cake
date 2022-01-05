@@ -6,26 +6,11 @@ h1 {
     text-align: center;
   }
 
-  p  {
-    font-size: 2rem;
-    color: rgb(184, 67, 24);
-    font-weight: lighter;
-    text-align: center;
-    text-shadow: 4px 4px 5px pink;
-
-  }
-
   h4 {
       font-family: cursive;
       font-weight: bold;
       color: purple;
-      
-
   }
-
-
-
-
 
 .enfeites-cereja,
 .enfeites-morango {
@@ -34,7 +19,6 @@ h1 {
     justify-content: left;
     text-shadow: 4px 4px 5px black;
     border-radius: 50px;
-    
 }
 
 .massa-chocolate{
@@ -83,7 +67,6 @@ h1 {
     font-weight: normal;
     color: black;
     border-radius: 50%;
-
 }
 
 .recheio-morango{
@@ -146,8 +129,6 @@ h1 {
     border-radius: 50%;
 }
 
-
-
 .bolo.chocolate{
     background-color: rgba(59, 30, 3, 0.973);
     height: 100px;
@@ -174,7 +155,6 @@ h1 {
     height: 20px;
     width: 150px;
     margin-top: 50px;
-
 }
 
 .recheio.morango{
@@ -182,7 +162,6 @@ h1 {
     height: 20px;
     width: 150px;
     margin-top: 50px;
-
 }
 
 .recheio.abacaxi{
@@ -190,7 +169,6 @@ h1 {
     height: 20px;
     width: 150px;
     margin-top: 50px;
-
 }
 
 .cobertura.chantilly{
@@ -199,7 +177,6 @@ h1 {
     width: 150px;
     border-radius: 20% 20% 0 0;
     margin-bottom: 50px;
-
 }
  
 /*  */
@@ -219,12 +196,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-#canvas{
-    border: 1px solide red;
- 
-}
-
-
 .decoracao.cereja{
     background-image: url("../imagens/cereja.png");
     background-size: 50px;
@@ -232,7 +203,6 @@ h1 {
     height: 180px;
     width: 50px;
     border-radius: 100%;
-    
 }
 
 .decoracao.morango{
@@ -242,13 +212,7 @@ h1 {
     height: 180px;
     width: 50px;
     border-radius: 50%;
-    
 }
-
-
-
-
-
 
 #secao-1 {
     display: flex;
@@ -256,8 +220,6 @@ h1 {
     background-image: url("../imagens/fundo.png");
     height: 800px;
     width: 1300px;
-    
-   
 }
 
 
@@ -266,13 +228,10 @@ h1 {
 .coberturas,
 .decoracao {
 margin: 20px ;
-
-
 }
 
 
 .enfeites-cereja img,
 .enfeites-morango img {
 height: 30px;
-
 }

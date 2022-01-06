@@ -117,13 +117,11 @@ ganache.addEventListener("click", function(){
       element.textContent = `${paddedFormat(time_minutes)}:${paddedFormat(time_seconds)}`;
   
       startCountDown(--duration, element);
-
-      let myGreeting = setTimeout(function() {
-        alert('O tempo está acabando!');
-      }, 20000)
-      
   };
 
   
+  let myGreeting = setTimeout(function() {
+    alert('O tempo está acabando!');
+  }, 20000)
 
-
+ 

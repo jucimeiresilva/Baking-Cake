@@ -1,9 +1,6 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(214, 233, 238);
 }
-
-
-
 
 h1 {
     font-size: 5rem;
@@ -17,12 +14,13 @@ h1 {
       font-family: cursive;
       font-weight: bold;
       color: purple;
+      font-size: 20px;
   }
 
 .enfeites-cereja,
 .enfeites-morango {
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     justify-content: left;
     text-shadow: 4px 4px 5px black;
     border-radius: 50px;
@@ -30,20 +28,20 @@ h1 {
 
 .massa-chocolate{
     background-color: maroon;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: arial;
     text-align: center;
     font-weight: normal;
-    color: black;
+    color: whitesmoke;
     border-radius: 50%;
 }
 
 .massa-redvelvet{
     background-color: red;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: arial;
     text-align: center;
@@ -54,8 +52,8 @@ h1 {
 
 .massa-baunilha{
     background-color: palegoldenrod;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -66,20 +64,20 @@ h1 {
 
 .recheio-amora{
     background-color: purple;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
     font-weight: normal;
-    color: black;
+    color: whitesmoke;
     border-radius: 50%;
 }
 
 .recheio-morango{
     background-color: rgb(209, 99, 163);;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -90,8 +88,8 @@ h1 {
 
 .recheio-abacaxi{
     background-color: yellow;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -102,8 +100,8 @@ h1 {
 
 .chantilly{
     background-color: aqua;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -114,8 +112,8 @@ h1 {
 
 .creme-de-manteiga{
     background-color: pink;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -126,8 +124,8 @@ h1 {
 
 .ganache{
     background-color: burlywood;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -138,83 +136,85 @@ h1 {
 
 .bolo.chocolate{
     background-color: rgba(59, 30, 3, 0.973);
-    height: 100px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
+    height: 200px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
 }
 
 .bolo.red-velvet{
     background-color: red;
-    height: 100px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
+    height: 200px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
 }
 
 .bolo.baunilha{
     background-color: palegoldenrod;
-    height: 100px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
+    height: 200px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
 }
 
 .recheio.amora{
     background-color: purple;
-    height: 20px;
-    width: 150px;
-    margin-top: 50px !important;
+    height: 30px;
+    width: 250px;
+    margin-top: 80px !important;
 }
 
 .recheio.morango{
     background-color: rgb(209, 99, 163);
-    height: 20px;
-    width: 150px;
-    margin-top: 50px;
+    height: 30px;
+    width: 250px;
+    margin-top: 80px;
 }
 
 .recheio.abacaxi{
     background-color: yellow;
-    height: 20px;
-    width: 150px;
-    margin-top: 50px;
+    height: 30px;
+    width: 250px;
+    margin-top: 80px;
 }
 
 .cobertura.chantilly{
     background-color: aqua;
-    height: 10px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
-    margin-bottom: 50px !important;
+    height: 20px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
+    margin-bottom: 80px !important;
 }
  
 /*  */
 .cobertura.creme-de-manteiga{
     background-color: pink;
-    height: 10px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
-    margin-bottom: 50px;
+    height: 20px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
+    margin-bottom: 80px;
 }
 
 .cobertura.ganache{
     background-color: burlywood;
-    height: 10px;
-    width: 150px;
-    border-radius: 20% 20% 0 0;
-    margin-bottom: 50px;
+    height: 20px;
+    width: 250px;
+    border-radius: 25% 25% 0 0;
+    margin-bottom: 80px;
 }
+
+/* arrumar o tamanho das decoracoes */
 
 .decoracao.cereja{
     background-image: url("../imagens/cereja.png");
     background-size: 20px;
-    height: 30px;
-    width: 100px;
+    height: 20px;
+    width: 250px;
 }
 
 .decoracao.morango{
     background-image: url("../imagens/morango.png");
     background-size: 25px;
-    height: 30px;
-    width: 50px;
+    height: 20px;
+    width: 250px;
 }
 
 #secao-1 {
@@ -232,7 +232,7 @@ h1 {
 .recheios,
 .coberturas,
 .decoracoes {
-margin: 20px ;
+margin: 30px ;
 }
 
 

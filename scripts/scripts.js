@@ -109,7 +109,7 @@ ganache.addEventListener("click", function(){
   
   window.onload = function () {
       let time_minutes = 0; // Value in minutes
-      let time_seconds = 30; // Value in seconds
+      let time_seconds = 20; // Value in seconds
   
       let duration = time_minutes * 60 + time_seconds;
   
@@ -117,11 +117,15 @@ ganache.addEventListener("click", function(){
       element.textContent = `${paddedFormat(time_minutes)}:${paddedFormat(time_seconds)}`;
   
       startCountDown(--duration, element);
+
+      let myGreeting = setTimeout(function() {
+        alert('Game Over!!!');
+      }, 20000)
+
   };
 
+
   
-  let myGreeting = setTimeout(function() {
-    alert('O tempo está acabando!');
-  }, 20000)
+  
 
  

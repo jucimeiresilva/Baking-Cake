@@ -19,8 +19,8 @@ h1 {
 
 .enfeites-cereja,
 .enfeites-morango {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     justify-content: left;
     text-shadow: 4px 4px 5px black;
     border-radius: 50px;
@@ -28,8 +28,8 @@ h1 {
 
 .massa-chocolate{
     background-color: maroon;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: arial;
     text-align: center;
@@ -40,8 +40,8 @@ h1 {
 
 .massa-redvelvet{
     background-color: red;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: arial;
     text-align: center;
@@ -52,8 +52,8 @@ h1 {
 
 .massa-baunilha{
     background-color: palegoldenrod;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -64,8 +64,8 @@ h1 {
 
 .recheio-amora{
     background-color: purple;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -76,8 +76,8 @@ h1 {
 
 .recheio-morango{
     background-color: rgb(209, 99, 163);;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -88,8 +88,8 @@ h1 {
 
 .recheio-abacaxi{
     background-color: yellow;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -100,8 +100,8 @@ h1 {
 
 .chantilly{
     background-color: aqua;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -112,8 +112,8 @@ h1 {
 
 .creme-de-manteiga{
     background-color: pink;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -124,8 +124,8 @@ h1 {
 
 .ganache{
     background-color: burlywood;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     font-size: 10px;
     font-family: Arial;
     text-align: center;
@@ -138,21 +138,21 @@ h1 {
     background-color: rgba(59, 30, 3, 0.973);
     height: 200px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 20% 20% 0 0;
 }
 
 .bolo.red-velvet{
     background-color: red;
     height: 200px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 20% 20% 0 0;
 }
 
 .bolo.baunilha{
     background-color: palegoldenrod;
     height: 200px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 20% 20% 0 0;
 }
 
 .recheio.amora{
@@ -180,7 +180,7 @@ h1 {
     background-color: aqua;
     height: 20px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 30% 30% 0 0;
     margin-bottom: 80px !important;
 }
  
@@ -189,7 +189,7 @@ h1 {
     background-color: pink;
     height: 20px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 40% 40% 0 0;
     margin-bottom: 80px;
 }
 
@@ -197,24 +197,26 @@ h1 {
     background-color: burlywood;
     height: 20px;
     width: 250px;
-    border-radius: 25% 25% 0 0;
+    border-radius: 40% 40% 0 0;
     margin-bottom: 80px;
 }
 
-/* arrumar o tamanho das decoracoes */
+
 
 .decoracao.cereja{
     background-image: url("../imagens/cereja.png");
-    background-size: 20px;
-    height: 20px;
-    width: 250px;
+    background-size: 25px;
+    height: 48px;
+    width: 225px;
+    margin: -5px 10px;
 }
 
 .decoracao.morango{
     background-image: url("../imagens/morango.png");
     background-size: 25px;
-    height: 20px;
-    width: 250px;
+    height:40px;
+    width: 225px;
+    margin: -5px 10px;
 }
 
 #secao-1 {
